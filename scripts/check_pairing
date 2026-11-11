@@ -1,0 +1,9 @@
+path/to/folder/
+
+for r1 in rawfile_folder/*_R1_001.fastq.gz; do
+    sample=$(basename "$r1" _R1_001.fastq.gz)
+    r2="rawfile_folder/${sample}_R2_001.fastq.gz"
+    echo "R1: $r1"
+    echo "R2: $r2"
+    echo
+done
