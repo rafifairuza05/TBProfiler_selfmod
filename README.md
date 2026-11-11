@@ -1,4 +1,3 @@
-# TBProfiler_sandbox
 # TB WGS Analysis
 
 ## Overview
